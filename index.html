@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eskere</title>
+ <link rel="stylesheet" href="/Practicas/Cositascss/jueguito.css" />
+<script src="/Practicas/cositasjs/juego.js" defer></script>
+  </head>
+
+  <body>
+    <!-- apartado seleccionar mascotaaaaa -->
+    <section id="Seleccionar-mascota">
+      <h1 id="titulo">Titulo en construccion</h1>
+      <h2 id="subtitulo">Elige tu mascota</h2>
+
+      <div class="tarjetas">
+
+        <input type="radio" name="Mascota" id="input1" />
+        <label class="mascotas-seleccion" for="input1">
+          <p>TucanoBanano</p>
+          <img class="imagen-mascota" src="/Practicas/tucano banao.png" alt="TucanoBanano" />
+        </label>
+
+        <input type="radio" name="Mascota" id="input2" />
+        <label class="mascotas-seleccion" for="input2">
+          <p>TralaleroTralala</p>
+          <img class="imagen-mascota" src="/Practicas/newgentralalero.png" alt="TralaleroTralala" />
+        </label>
+
+        <input type="radio" name="Mascota" id="input3" />
+        <label class="mascotas-seleccion" for="input3">
+          <p>OrcaleroOrcala</p>
+          <img class="imagen-mascota" src="/Practicas/orcalero.webp" alt="OrcaleroOrcala" />
+        </label>
+
+      </div>
+
+      <!-- Aca selecciona mascota -->
+      <button id="boton-seleccion-mascota">Seleccionar</button>
+    </section>
+
+    <!-- Apartado seleccionar ataque -->
+    <section id="Seleccionar-ataque">
+      <h2 id="subtitulo1">Elige tu ataque</h2>
+
+      <!-- Botones de los ataques -->
+ <div class="botones-ataque">
+        <button id="ataquef">Fuego 🔥</button>
+        <button id="ataquet">Tierra 🗻</button>
+        <button id="ataquea">Agua 💧</button>
+      </div>
+
+      <!--Apartado de mensajes-->
+    <section id="mensajes">
+      <p id="resultado">Mucha Suerte</p>
+    </section>
+        <!--Apartado de reiniciar-->
+    <section id="reiniciar">
+      <button id="botonreiniciar">Reiniciar</button>
+    </section>
+
+<div class="vidas-container">  
+
+  <!-- jugador informacion -->
+    <div class="info-vidas">
+       <p id="parrafo1">
+          Tu <span id="mjugador"></span> tiene
+          <span id="vidamascotaj">3</span> vidas
+        </p>
+        <div id="ataque_del_jugador"></div>
+    </div>
+
+    <!-- enemigo informacion -->
+    <div class="info-vidas">
+       <p id="parrafo2">
+
+
+
+          El <span id="menemigo"></span> tiene
+          <span id="vidamascotae">3</span> vidas
+         </p>
+              <div id="ataque_del_enemigo"></div>          
+    </div>
+</div>
+<p id="mensajefinal1">Aca tengo que hacer un final del programa terminando con un mensaje de agradecimiento.</p>
+<div>
+  <p>
+    Este mensaje final debe estar conformado de varias variables. como por ejempl>
+  </p>
+</div>
+  </body>
+</html>
